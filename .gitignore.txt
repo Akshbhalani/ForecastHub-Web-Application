@@ -34,3 +34,9 @@ log/
 tmp/
 temp/
 *.pid
+
+
+.env
+.env.*
+*.env
+*.env.*
