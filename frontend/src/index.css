@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900;
+  }
+  
+  .weather-card {
+    @apply bg-gray-800/90 backdrop-blur-lg rounded-2xl shadow-xl border border-gray-700 
+           hover:bg-gray-700/90 transition-all duration-300 hover:scale-105;
+  }
+
+  .glass-morphism {
+    @apply bg-gray-800/80 backdrop-blur-lg border border-gray-700 shadow-lg;
+  }
+}
